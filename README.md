@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/152215067?s=200&v=4" height="80">
 </p>
 
-# LabsMobile-Nagios
+# LabsMobile-Zabbix
 
 ![](https://img.shields.io/badge/version-1.0.0-blue.svg)
  
@@ -39,7 +39,9 @@ chmod 755 /usr/lib/zabbix/alertscripts/sms.php
      - `{ALERT.SENDTO}`
      - `{ALERT.SUBJECT}`
      - `{ALERT.MESSAGE}`
-  ![Zabbix SMS media config](zabbix_sms_script_config.png)
+
+![Zabbix SMS media config](zabbix_sms_script_config.png)
+
 6. In Zabbix GUI, go to Administration > Users, edit a user, make sure it has a mobile phone number and assign the new SMS media.
 
 7. Test the message from cli
