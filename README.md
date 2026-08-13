@@ -4,7 +4,7 @@
 
 # LabsMobile-Zabbix
 
-![](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
 Send SMS notifications through the LabsMobile platform from the Zabbix application. Configure your open source instance of Zabbix so that you can send alerts and notifications via SMS with LabsMobile.
 
